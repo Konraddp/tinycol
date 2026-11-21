@@ -1,0 +1,12 @@
+build/
+cmake-build-*/
+
+.vscode/
+.idea/
+*.swp
+
+.DS_Store
+Thumbs.db
+
+# Testdata
+data/
