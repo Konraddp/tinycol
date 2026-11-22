@@ -1,7 +1,9 @@
 #pragma once
 #include <string>
-#include <vector>
+#include <tinycol/table.hpp>
 
 namespace tinycol {
-    std::vector<std::vector<std::string>> read_csv(const std::string& path);
-}
+
+Table read_csv(const std::string& path);
+
+}  // namespace tinycol

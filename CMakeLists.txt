@@ -5,8 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(tinycol_lib
-    src/placeholder.cpp
+    src/csv_reader.cpp
 )
+
 target_include_directories(tinycol_lib PUBLIC include)
 target_compile_options(tinycol_lib PRIVATE -Wall -Wextra -Wpedantic)
 
