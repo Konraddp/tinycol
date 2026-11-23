@@ -1,7 +1,5 @@
-#include <string>
-#include <iostream>
+#include <tinycol/csv_reader.hpp>
 
 int main() {
-    std::string s = "tinycol";
-    std::cout << s << "\n";
+    tinycol::read_csv("tests/data/sample.csv");
 }
